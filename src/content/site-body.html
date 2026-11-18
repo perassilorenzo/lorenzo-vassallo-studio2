@@ -1,0 +1,394 @@
+
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-instagram" viewBox="0 0 448 512">
+      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 448 512">
+      <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.4 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+    </symbol>
+  </svg>
+
+  <!-- Le fotografie in assets/ provengono da Instagram e sono usate come riferimento in questa bozza. Uso pubblico da autorizzare. -->
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner shell">
+      <a class="brand" href="#hero" aria-label="Lorenzo Vassallo Studio — torna all'inizio">
+        <span class="brand__name">Lorenzo Vassallo</span>
+        <span class="brand__sub">Studio</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navigazione principale">
+        <a href="#servizi">Servizi</a>
+        <a href="#studio">Studio</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Apri menu">
+          <span class="menu-toggle__label">Menu</span>
+          <span class="menu-toggle__lines" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <div class="intro-stage" id="intro-stage">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__media" data-parallax data-speed="0.07">
+        <img src="/assets/dining_tavolo_panchina_verde.jpg"
+             alt="Tavolo in legno massiccio con panchina imbottita verde su parquet a spina di pesce"
+             width="1440" height="1800" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__inner shell">
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__line hero__line--main">Se non sai neanche come iniziare perché non ti fai aiutare?</span>
+          <span class="hero__line hero__line--sub">La tua casa è unica, rendila speciale</span>
+        </h1>
+        <p class="hero__intro">Progettazione di interni su misura, consulenza architettonica, product design</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid-light" href="#contatti">Richiedi consulenza</a>
+          <a class="btn btn--light" href="#progetti">Guarda i progetti</a>
+        </div>
+        <p class="hero__place">Studio a Saluzzo (CN) — Via Spielberg 91</p>
+      </div>
+    </section>
+
+    <section class="problem section" id="problema" aria-labelledby="problem-title">
+      <div class="shell problem__content">
+        <h2 class="reveal" id="problem-title">Quando devi ristrutturare uno spazio non sai mai da dove partire o come realizzarlo</h2>
+        <p class="problem__lead reveal">Il <span class="stat">64%</span> degli italiani dichiara di avere informazioni scarse, generiche o nulle su concetti base di edilizia efficiente <a class="source" href="https://www.ilsole24ore.com/art/smart-building-64percento-italiani-non-sa-cosa-sia-AFStMeiC" target="_blank" rel="noopener noreferrer">Fonte</a></p>
+        <p class="problem__question reveal"><strong>Tu fai parte di questa percentuale?</strong></p>
+      </div>
+    </section>
+    </div>
+
+    <section class="story section" id="cause" aria-labelledby="story-title">
+      <div class="shell">
+        <div class="story__intro reveal">
+          <h2 id="story-title">Probabilmente sì.</h2>
+          <p>Ecco perché:</p>
+        </div>
+
+        <div class="story__grid">
+          <div class="story__media">
+            <div class="story__frame">
+              <img src="/assets/dettaglio_legno_scuro_venato.jpg"
+                   alt="Dettaglio ravvicinato di essenza in legno scuro venato"
+                   width="1440" height="1800" loading="lazy" decoding="async">
+            </div>
+          </div>
+
+          <div class="story__content">
+            <ol class="story__list">
+              <li class="story__item is-active" data-story-item>
+                <span class="story__num" aria-hidden="true">01</span>
+                <h3>Competenze tecniche</h3>
+                <p class="story__text">Perché materiali, tecniche e vincoli di cantiere non si improvvisano: senza chi li conosce, anche un'idea precisa resta difficile da realizzare.</p>
+              </li>
+              <li class="story__item" data-story-item>
+                <span class="story__num" aria-hidden="true">02</span>
+                <h3>Coerenza degli elementi</h3>
+                <p class="story__text">Perché proporzioni, luce, colori e arredi vanno decisi insieme: senza una visione d'insieme, ogni scelta rischia di non funzionare con le altre.</p>
+              </li>
+              <li class="story__item" data-story-item>
+                <span class="story__num" aria-hidden="true">03</span>
+                <h3>Scelta stilistica</h3>
+                <p class="story__text">Perché lo stile non è un dettaglio finale: è il criterio che guida le scelte e rende riconoscibile uno spazio, non una somma di elementi.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="styles section" id="stili" aria-labelledby="styles-title">
+      <div class="shell styles__layout">
+        <div class="styles__copy">
+          <h2 class="reveal" id="styles-title">Ogni spazio richiede soluzioni differenti</h2>
+          <p class="styles__sub reveal">due stanze due stili completamente diversi<br>ma entrambe <strong>ELEGANTI</strong></p>
+        </div>
+
+        <div class="styles__pair">
+          <figure class="styles__plate reveal">
+            <img src="/assets/cucina_pietra_rosso_isola_marmo.jpg"
+                 alt="Cucina con isola in marmo e pietra rossa"
+                 width="3196" height="3995" loading="lazy" decoding="async">
+            <figcaption>stile 1</figcaption>
+          </figure>
+
+          <figure class="styles__plate reveal">
+            <img src="/assets/ingresso_parquet_sedie_legno.jpg"
+                 alt="Ingresso con parquet e sedie in legno"
+                 width="2048" height="2048" loading="lazy" decoding="async">
+            <figcaption>stile 2</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="servizi" aria-labelledby="services-title">
+      <div class="shell services__grid">
+        <div class="services__main">
+          <h2 class="reveal" id="services-title">Cosa offre lo Studio</h2>
+          <ol class="services__list">
+            <li class="services__item reveal"><span aria-hidden="true">01</span><div><h3>Progettazione di interni su misura</h3><p class="services__desc">Dal rilievo al progetto esecutivo: distribuzione degli spazi, materiali, luce e arredi disegnati per la tua casa, una stanza o un'intera residenza.</p></div></li>
+            <li class="services__item reveal"><span aria-hidden="true">02</span><div><h3>Consulenza architettonica</h3><p class="services__desc">Un confronto tecnico per capire possibilità, vincoli e priorità prima di iniziare i lavori, con le competenze di un geometra abilitato.</p></div></li>
+            <li class="services__item reveal"><span aria-hidden="true">03</span><div><h3>Product design</h3><p class="services__desc">Arredi e dettagli progettati su misura quando il catalogo non basta: pezzi unici pensati per quello spazio.</p></div></li>
+          </ol>
+        </div>
+
+        <div class="services__aside">
+          <figure class="services__figure reveal">
+            <img src="/assets/porta_listelli_bianca_dettaglio.jpg"
+                 alt="Dettaglio di una porta bianca a listelli con stipiti e ambiente caldo sullo sfondo"
+                 width="1440" height="1800" loading="lazy" decoding="async">
+          </figure>
+          <div class="services__note reveal">
+            <h3>Come vedi la vendita di mobili non è inclusa:</h3>
+            <p>preferiamo concentrarci sulla progettazione</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="shell services__turn">
+        <h3 class="reveal">Ma…</h3>
+      </div>
+    </section>
+
+    <section class="partner section" id="partner" aria-labelledby="partner-title">
+      <div class="shell partner__content">
+        <h2 class="reveal" id="partner-title">Siamo associati a <a href="https://www.2dcasa.it/" target="_blank" rel="noopener noreferrer">2d casa</a></h2>
+        <p class="partner__lead reveal">la quale gestisce lo sviluppo e la realizzazione di immobili</p>
+        <blockquote class="partner__quote reveal">2d casa è composto da professionisti che condividono la visione internazionale e l'approccio multidisciplinare all'architettura, con particolare attenzione ai progetti che creano valore aggiunto.</blockquote>
+      </div>
+    </section>
+
+    <section class="studio section" id="studio" aria-labelledby="studio-title">
+      <div class="shell">
+        <h2 class="reveal" id="studio-title">Tornando allo Studio</h2>
+        <div class="studio__grid">
+          <figure class="studio__figure reveal">
+            <img src="/assets/studio_ufficio_bianco_nero.jpg"
+                 alt="Interno di uno studio con scrivania, scaffalatura e luce lineare a soffitto, in bianco e nero"
+                 width="1440" height="1800" loading="lazy" decoding="async">
+          </figure>
+          <div class="studio__body">
+            <p class="studio__intro reveal">Mi chiamo Lorenzo, Interior designer esperto nel settore con più di 10 anni di esperienza</p>
+            <ul class="credentials reveal">
+              <li><strong>IED Torino</strong><span>Diploma in Interior Design, 2013</span></li>
+              <li><strong>Geometra abilitato</strong><span>Competenze tecniche e di cantiere</span></li>
+              <li><strong>Pubblicato su INTERNI</strong><span>Progetti su riviste di settore</span></li>
+            </ul>
+            <ol class="timeline">
+              <li class="timeline__item reveal">
+                <div class="timeline__info">
+                  <h3 class="timeline__role">Interior Designer</h3>
+                  <p class="timeline__place">Lorenzo Vassallo Studio</p>
+                </div>
+                <p class="timeline__date">2023 - Presente</p>
+              </li>
+              <li class="timeline__item reveal">
+                <div class="timeline__info">
+                  <h3 class="timeline__role">Senior Interior Designer</h3>
+                  <p class="timeline__place">Martina Design</p>
+                </div>
+                <p class="timeline__date">2015 - 2023</p>
+              </li>
+              <li class="timeline__item reveal">
+                <div class="timeline__info">
+                  <h3 class="timeline__role">Junior Interior Designer</h3>
+                  <p class="timeline__place">Studio Galata (Istanbul)</p>
+                </div>
+                <p class="timeline__date">2013 - 2015</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="method section" id="metodo" aria-labelledby="method-title">
+      <div class="shell">
+        <div class="method__head">
+          <h2 class="reveal" id="method-title">Come lavoriamo</h2>
+          <p class="method__lead reveal">Un percorso chiaro, dalla prima idea al progetto finito.</p>
+        </div>
+        <ol class="method__list">
+          <li class="method__step reveal"><span aria-hidden="true">01</span><h3>Primo incontro</h3><p>Ascoltiamo esigenze, abitudini e budget, in studio o direttamente nello spazio da progettare.</p></li>
+          <li class="method__step reveal"><span aria-hidden="true">02</span><h3>Rilievo e concept</h3><p>Misuriamo lo spazio e definiamo la direzione: distribuzione, stile, materiali e palette.</p></li>
+          <li class="method__step reveal"><span aria-hidden="true">03</span><h3>Progetto</h3><p>Disegni, dettagli e scelte definitive, condivisi e rivisti insieme fino all'equilibrio giusto.</p></li>
+          <li class="method__step reveal"><span aria-hidden="true">04</span><h3>Realizzazione</h3><p>Coordinamento con le imprese e, grazie a 2d casa, supporto nello sviluppo dell'immobile.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="projects section" id="progetti" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="projects__head">
+          <h2 class="reveal" id="projects-title">Progetti</h2>
+          <p class="projects__lead reveal">Residenze complete o singoli ambienti: living, cucine, zone pranzo, studi.</p>
+        </div>
+        <div class="projects__grid">
+          <figure class="projects__item projects__item--tall reveal"><img src="/assets/living_legno_camino_divano.jpg" alt="Living con camino e boiserie in legno" width="1440" height="1799" loading="lazy" decoding="async"><figcaption>Living</figcaption></figure>
+          <figure class="projects__item reveal"><img src="/assets/dining_tavolo_lampade_sospese.jpg" alt="Zona pranzo con tavolo e lampade a sospensione" width="1440" height="1800" loading="lazy" decoding="async"><figcaption>Zona pranzo</figcaption></figure>
+          <figure class="projects__item reveal"><img src="/assets/soffitto_travi_legno_rosso.jpg" alt="Soffitto con travi in legno rosso" width="1440" height="1800" loading="lazy" decoding="async"><figcaption>Dettaglio soffitto</figcaption></figure>
+          <figure class="projects__item reveal"><img src="/assets/parete_pannelli_listelli_legno.jpg" alt="Parete rivestita con pannelli a listelli in legno" width="1440" height="1800" loading="lazy" decoding="async"><figcaption>Boiserie</figcaption></figure>
+          <figure class="projects__item reveal"><img src="/assets/dining_tavolo_legno_sedie.jpg" alt="Tavolo in legno con sedie" width="1440" height="1800" loading="lazy" decoding="async"><figcaption>Dining</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="texture-band" aria-hidden="true">
+      <img src="/assets/living_legno_camino_divano.jpg"
+           alt="" width="1440" height="1799" loading="lazy" decoding="async"
+           data-parallax data-speed="0.1">
+    </div>
+
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="shell">
+        <div class="faq__head reveal">
+          <h2 id="faq-title">FAQ - Hai dubbi o domande?</h2>
+        </div>
+        <div class="faq__groups">
+          <details class="faq__group">
+            <summary class="faq__group-title">Consulenza e servizi</summary>
+            <ol class="faq__list">
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Devo avere già un progetto in mente?</summary>
+                  <p class="faq__a">No. Puoi partire anche da un'idea iniziale, da un'esigenza o semplicemente dalla volontà di trasformare uno spazio. Il primo confronto serve proprio a capire le possibilità e definire la direzione del progetto.</p>
+                </details>
+              </li>
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Posso chiedere aiuto per una sola stanza?</summary>
+                  <p class="faq__a">Certamente. Un progetto può riguardare un singolo ambiente, come un soggiorno, una camera da letto o una zona pranzo, oppure coinvolgere l'intera abitazione.</p>
+                </details>
+              </li>
+            </ol>
+          </details>
+
+          <details class="faq__group">
+            <summary class="faq__group-title">Costi e organizzazione</summary>
+            <ol class="faq__list">
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Quanto costa un progetto di interior design?</summary>
+                  <p class="faq__a">Il costo dipende dalle dimensioni dello spazio, dalla complessità dell'intervento e dal livello di progettazione richiesto. Dopo aver compreso le esigenze, sarà possibile definire una proposta più precisa.</p>
+                </details>
+              </li>
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Quanto tempo serve per realizzare un progetto?</summary>
+                  <p class="faq__a">Le tempistiche variano in base alla complessità e alla quantità di ambienti coinvolti. Dopo il primo confronto è possibile definire una pianificazione indicativa.</p>
+                </details>
+              </li>
+            </ol>
+          </details>
+
+          <details class="faq__group">
+            <summary class="faq__group-title">Stile e progettazione</summary>
+            <ol class="faq__list">
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Posso mantenere mobili e arredi esistenti?</summary>
+                  <p class="faq__a">Sì, se coerenti con il progetto e con il risultato desiderato. Gli elementi esistenti possono diventare parte integrante della nuova composizione.</p>
+                </details>
+              </li>
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Come viene individuato lo stile del progetto?</summary>
+                  <p class="faq__a">Il progetto nasce dal dialogo con il cliente, dalle sue esigenze e dalle caratteristiche dello spazio. L'obiettivo non è applicare uno stile predefinito, ma trovare un equilibrio tra estetica e funzionalità.</p>
+                </details>
+              </li>
+            </ol>
+          </details>
+
+          <details class="faq__group">
+            <summary class="faq__group-title">Lavori e realizzazione</summary>
+            <ol class="faq__list">
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Posso vedere il progetto prima della realizzazione?</summary>
+                  <p class="faq__a">La modalità di presentazione va concordata con lo studio. Eventuali elaborati grafici, render o rappresentazioni progettuali possono aiutare a comprendere il risultato previsto.</p>
+                </details>
+              </li>
+              <li class="faq__item reveal">
+                <details class="faq__entry">
+                  <summary class="faq__q">Vi occupate anche della fase di realizzazione?</summary>
+                  <p class="faq__a">Questo aspetto dipende dal tipo di incarico e dalle responsabilità concordate. È importante chiarire fin dall'inizio quali attività siano comprese nel servizio.</p>
+                </details>
+              </li>
+            </ol>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contatti" aria-labelledby="contact-title">
+      <div class="shell">
+        <h2 class="reveal" id="contact-title">Un progetto nasce da un’idea.</h2>
+        <div class="contact__grid">
+        <div class="contact__info reveal">
+          <p class="contact__lead">Raccontaci il tuo spazio: ti ricontatteremo per fissare una prima consulenza.</p>
+          <dl>
+            <div><dt>Studio</dt><dd>Via Spielberg 91<br>12037 Saluzzo (CN)</dd></div>
+            <div><dt>Ricevimento</dt><dd>Su appuntamento</dd></div>
+            <div><dt>Social</dt><dd><a href="https://www.instagram.com/lorenzovassallostudio/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="https://www.linkedin.com/in/lorenzo-vassallo-20a97b71/" target="_blank" rel="noopener noreferrer">LinkedIn</a></dd></div>
+          </dl>
+        </div>
+
+        <!-- Placeholder: form dimostrativo, nessun endpoint collegato. -->
+        <form class="contact__form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="cf-name">Nome</label>
+            <input id="cf-name" name="nome" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field field--wide">
+            <label for="cf-message">Il tuo progetto</label>
+            <textarea id="cf-message" name="messaggio" rows="2" required></textarea>
+          </div>
+          <button class="btn btn--solid-light" type="submit">Richiedi consulenza</button>
+          <p class="contact__status" id="contact-status" role="status" aria-live="polite"></p>
+        </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <div class="site-footer__brand">
+        <a class="brand brand--footer" href="#hero">Lorenzo Vassallo <span>Studio</span></a>
+        <p>Interior design · Via Spielberg 91, Saluzzo (CN)</p>
+      </div>
+      <nav aria-label="Navigazione di piede">
+        <a href="#servizi">Servizi</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#progetti">Progetti</a>
+        <a href="#studio">Lo studio</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+      <nav class="site-footer__social" aria-label="Social">
+        <a href="https://www.instagram.com/lorenzovassallostudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg class="social__icon" aria-hidden="true" focusable="false"><use href="#icon-instagram"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/lorenzo-vassallo-20a97b71/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg class="social__icon" aria-hidden="true" focusable="false"><use href="#icon-linkedin"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div class="shell site-footer__legal"><p>© 2026 Lorenzo Vassallo Studio</p></div>
+  </footer>
+
+  
